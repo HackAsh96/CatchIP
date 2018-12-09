@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
 }
-#ip{
+#ipConf{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,7 +12,7 @@ body{
   width: 200px;
   height: auto;
 }
-#city{
+#cityConf{
   position: absolute;
   top: 30%;
   left: 50%;

@@ -9,8 +9,11 @@ const url="https://ipinfo.io/json";
 fetch(url)
 .then(resp=>resp.json())
 .then((infos)=>{
-    const screenIP=document.querySelector("#ip");
+    const ip=infos.ip;
+    const city=infos.city;
+    const screenIP=document.querySelector("#ipConf");
     screenIP.innerHTML=`This is your IP:<br><br>${infos.ip}`;
-    const screenCity=document.querySelector("#city");
+    const screenCity=document.querySelector("#cityConf");
     screenCity.innerHTML=`That's where you live:<br><br>${infos.city}`;
+    getData(infos);
 });
