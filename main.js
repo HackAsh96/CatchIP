@@ -15,5 +15,4 @@ fetch(url)
     screenIP.innerHTML=`This is your IP:<br><br>${infos.ip}`;
     const screenCity=document.querySelector("#cityConf");
     screenCity.innerHTML=`That's where you live:<br><br>${infos.city}`;
-    getData(infos);
 });

@@ -6,19 +6,19 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
+  background-color: lightblue;
   transform: translate(-50%,-50%);
   font-size: 30px;
-  background: yellow;
   width: 200px;
   height: auto;
 }
 #cityConf{
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
+  background-color: lightblue;
   transform: translate(-50%,-50%);
   font-size: 30px;
-  background: lightgreen;
   width: 200px;
   height: auto;
 }
